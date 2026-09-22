@@ -1,0 +1,14 @@
+{
+  "name": "boutique-telegram-miniapp",
+  "version": "1.0.0",
+  "description": "Mini-app Telegram boutique néon avec panier, avis, réseaux, panel admin et commandes WhatsApp",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "license": "UNLICENSED",
+  "private": true
+}

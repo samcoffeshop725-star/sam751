@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#05060f">
+  <title>Boutique</title>
+  <script src="https://telegram.org/js/telegram-web-app.js"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Orbitron:wght@500;700;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/app.css">
+</head>
+<body>
+  <div class="bg" id="bg" aria-hidden="true">
+    <div class="orb o1"></div><div class="orb o2"></div><div class="orb o3"></div>
+    <div class="floor"></div>
+  </div>
+  <div class="bg-image" id="bgImage" aria-hidden="true"></div>
+
+  <main id="app" class="app">
+    <div class="loader"><div class="ring"></div><p>Chargement…</p></div>
+  </main>
+
+  <nav class="tabbar glass" id="tabbar">
+    <button data-act="nav" data-view="home" class="tab">
+      <svg viewBox="0 0 24 24"><path d="M3 10.5 12 3l9 7.5V20a1 1 0 0 1-1 1h-5v-6h-6v6H4a1 1 0 0 1-1-1z"/></svg><span>Accueil</span>
+    </button>
+    <button data-act="nav" data-view="reviews" class="tab">
+      <svg viewBox="0 0 24 24"><path d="m12 3 2.7 5.6 6.1.9-4.4 4.3 1 6.1L12 17l-5.4 2.9 1-6.1-4.4-4.3 6.1-.9z"/></svg><span>Avis</span>
+    </button>
+    <button data-act="nav" data-view="socials" class="tab">
+      <svg viewBox="0 0 24 24"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><path d="m8.6 13.5 6.8 4M15.4 6.5l-6.8 4"/></svg><span>Réseaux</span>
+    </button>
+    <button data-act="nav" data-view="cart" class="tab">
+      <svg viewBox="0 0 24 24"><path d="M3 4h2l2.4 11.2a2 2 0 0 0 2 1.6h7.7a2 2 0 0 0 2-1.5L21 8H6.2"/><circle cx="10" cy="20.5" r="1.3"/><circle cx="17" cy="20.5" r="1.3"/></svg><span>Panier</span>
+      <b class="badge" id="cartBadge" hidden>0</b>
+    </button>
+  </nav>
+
+  <div class="sheet" id="sheet" hidden>
+    <div class="sheet-backdrop" data-act="close"></div>
+    <div class="sheet-panel glass" id="sheetPanel" role="dialog" aria-modal="true"></div>
+  </div>
+  <div class="toast" id="toast" role="status"></div>
+
+  <script src="/app.js"></script>
+</body>
+</html>

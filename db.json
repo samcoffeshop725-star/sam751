@@ -1,0 +1,234 @@
+{
+  "settings": {
+    "shopName": "SAM COFFEE SHOP",
+    "tagline": "Boutique premium • Livraison rapide",
+    "logo": "",
+    "whatsapp": "",
+    "deliveryFee": 4.9,
+    "freeDeliveryFrom": 60,
+    "minOrder": 0,
+    "cartNote": "Après validation, votre commande est transmise sur WhatsApp pour finaliser le paiement et la livraison.",
+    "reviewsEnabled": true,
+    "adminTelegramIds": [],
+    "theme": {
+      "preset": "cyber",
+      "accent": "#00f0ff",
+      "accent2": "#b44cff",
+      "gramColor": "#00f0ff",
+      "priceColor": "#39ff88",
+      "bgColor": "#05060f",
+      "bgImage": "",
+      "overlay": 0.55,
+      "blur": 14,
+      "panelOpacity": 0.45,
+      "glow": 1,
+      "animatedBg": true
+    }
+  },
+  "categories": [
+    {
+      "id": "c-the",
+      "name": "Thés",
+      "image": "/uploads/demo-the.svg"
+    },
+    {
+      "id": "c-cafe",
+      "name": "Cafés",
+      "image": "/uploads/demo-cafe.svg"
+    },
+    {
+      "id": "c-epices",
+      "name": "Épices",
+      "image": "/uploads/demo-epices.svg"
+    }
+  ],
+  "products": [
+    {
+      "id": "p-matcha",
+      "name": "Matcha Cérémonial",
+      "categoryId": "c-the",
+      "description": "Matcha japonais grade cérémonial, broyé à la meule de pierre. Notes végétales intenses et douceur umami.",
+      "image": "/uploads/demo-p-matcha.svg",
+      "options": [
+        {
+          "grams": 30,
+          "price": 18
+        },
+        {
+          "grams": 100,
+          "price": 49
+        }
+      ],
+      "badge": "TOP",
+      "active": true
+    },
+    {
+      "id": "p-sencha",
+      "name": "Sencha Premium",
+      "categoryId": "c-the",
+      "description": "Thé vert japonais aux notes fraîches et iodées. Parfait infusé à 70 °C pendant 1 minute.",
+      "image": "/uploads/demo-p-sencha.svg",
+      "options": [
+        {
+          "grams": 50,
+          "price": 9.9
+        },
+        {
+          "grams": 100,
+          "price": 17.9
+        },
+        {
+          "grams": 250,
+          "price": 39
+        }
+      ],
+      "badge": "",
+      "active": true
+    },
+    {
+      "id": "p-ethiopie",
+      "name": "Éthiopie Yirgacheffe",
+      "categoryId": "c-cafe",
+      "description": "Café de spécialité torréfié artisanalement. Arômes floraux, agrumes et bergamote.",
+      "image": "/uploads/demo-p-ethiopie.svg",
+      "options": [
+        {
+          "grams": 250,
+          "price": 14.5
+        },
+        {
+          "grams": 500,
+          "price": 26
+        },
+        {
+          "grams": 1000,
+          "price": 48
+        }
+      ],
+      "badge": "NOUVEAU",
+      "active": true
+    },
+    {
+      "id": "p-espresso",
+      "name": "Espresso Neon Blend",
+      "categoryId": "c-cafe",
+      "description": "Assemblage intense pour espresso : chocolat noir, noisette grillée, crema dense.",
+      "image": "/uploads/demo-p-espresso.svg",
+      "options": [
+        {
+          "grams": 250,
+          "price": 12.9
+        },
+        {
+          "grams": 1000,
+          "price": 44
+        }
+      ],
+      "badge": "",
+      "active": true
+    },
+    {
+      "id": "p-safran",
+      "name": "Safran d'Iran",
+      "categoryId": "c-epices",
+      "description": "Pistils de safran catégorie I, récolte manuelle. Pouvoir colorant et aromatique exceptionnel.",
+      "image": "/uploads/demo-p-safran.svg",
+      "options": [
+        {
+          "grams": 1,
+          "price": 9.9
+        },
+        {
+          "grams": 5,
+          "price": 42
+        }
+      ],
+      "badge": "RARE",
+      "active": true
+    },
+    {
+      "id": "p-kampot",
+      "name": "Poivre de Kampot",
+      "categoryId": "c-epices",
+      "description": "Poivre noir IGP du Cambodge, notes chaudes et florales. À moudre au dernier moment.",
+      "image": "/uploads/demo-p-kampot.svg",
+      "options": [
+        {
+          "grams": 50,
+          "price": 8.5
+        },
+        {
+          "grams": 100,
+          "price": 15
+        }
+      ],
+      "badge": "",
+      "active": true
+    }
+  ],
+  "reviews": [
+    {
+      "id": "r1",
+      "name": "Sarah M.",
+      "rating": 5,
+      "text": "Livraison ultra rapide et produits de très grande qualité. Le matcha est incroyable !",
+      "date": "2026-09-02",
+      "approved": true
+    },
+    {
+      "id": "r2",
+      "name": "Karim B.",
+      "rating": 5,
+      "text": "Commande simple via WhatsApp, réponse en quelques minutes. Je recommande à 100 %.",
+      "date": "2026-08-27",
+      "approved": true
+    },
+    {
+      "id": "r3",
+      "name": "Julie D.",
+      "rating": 4,
+      "text": "Très bon café, bien emballé. Petit délai de livraison mais service au top.",
+      "date": "2026-08-15",
+      "approved": true
+    },
+    {
+      "id": "r4",
+      "name": "Lucas P.",
+      "rating": 5,
+      "text": "Le safran est d'une qualité rare. Boutique sérieuse, je repasserai commande.",
+      "date": "2026-07-30",
+      "approved": true
+    }
+  ],
+  "socials": [
+    {
+      "id": "s1",
+      "type": "instagram",
+      "label": "Instagram",
+      "handle": "@neonleaf",
+      "url": "https://instagram.com/"
+    },
+    {
+      "id": "s2",
+      "type": "tiktok",
+      "label": "TikTok",
+      "handle": "@neonleaf",
+      "url": "https://tiktok.com/"
+    },
+    {
+      "id": "s3",
+      "type": "telegram",
+      "label": "Canal Telegram",
+      "handle": "@neonleaf",
+      "url": "https://t.me/"
+    },
+    {
+      "id": "s4",
+      "type": "snapchat",
+      "label": "Snapchat",
+      "handle": "neonleaf",
+      "url": "https://snapchat.com/"
+    }
+  ],
+  "orders": []
+}
